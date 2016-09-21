@@ -1,0 +1,436 @@
+/*
+Theme Name: rts_assign
+Author: Vatsal Shah
+Description: Style sheet of Simple Home page 
+Version: 1.0.0
+*/
+
+.header, .footer
+{
+	background-image:url(Slices/header-bg.jpg);
+	width:100%;
+}
+
+.logo 
+{
+	width:30%;
+	float:left;	
+	margin: 20px auto;
+}
+
+.logo img
+{
+	width:260px;
+	height:75px;	
+}
+
+a
+{
+	color:#000000 !important;	
+}
+
+a:hover 
+{
+	text-decoration:none !important;	
+}
+
+.header .pMenu,
+.footer .pMenu
+{
+	width:70%;
+	float:left;	
+}
+
+.header .pMenu_ul
+{
+	display:inline-block;
+	width:100%;
+	margin:35px auto;	
+}
+
+.footer .pMenu_ul
+{
+	display:inline-block;
+	width:100%;
+	margin-top:25px;	
+}
+
+.footer .footer_logo
+{
+	float:right;	
+	margin-top:25px;
+}
+
+.header .pMenu_ul ul
+{
+	list-style:none;
+	float:right;
+	padding-top:10px;
+}
+
+.footer .pMenu_ul ul
+{
+	list-style:none;
+	float:left;	
+	padding:0px;
+}
+
+.header .pMenu_ul > ul > li
+{
+	display:inline;
+	float:left;	
+	margin-left:20px;
+	font-family:Tahoma;
+	font-size:15px;
+}
+
+.footer .pMenu_ul ul li
+{
+	display:inline;
+	float:left;
+	margin-right:20px;	
+	font-family:Tahoma;
+	font-size:13px;
+}
+
+.header .pMenu_ul > ul > li > a 
+{
+	color:#333 !important;	
+}
+
+.header .pMenu_ul > ul > li > a:hover
+{
+	color:#993408 !important;	
+}
+
+.slider_sec
+{
+	background-color:#949599;
+	width:100%;
+}
+
+.slider_img 
+{
+	margin:20px auto;
+	width:100%;
+	height:300px;
+	background-color:#FFF;
+	position:relative;
+	display:inline-block;
+}
+
+.slider_box ol li.deactive
+{
+	background-color:#FFFFFF;	
+}
+
+.slider_box ol li.active
+{
+	background-color:#cb6619;
+	border:1px #cb6619 solid;
+}
+
+.slider_img ul.slides
+{
+	position:relative;
+	padding:0px;
+	overflow:hidden;	
+	list-style:none;
+	width:100%;
+	float:left;
+	height:300px;
+}
+
+.slider_img ul.slides li
+{
+	margin:10px;
+	position:absolute;	
+}
+
+.slider_img ul.slides li img
+{
+	width:100%;
+	height:280px;
+	float:left;	
+}
+
+.slider_img img.mySlides
+{
+	display:none;	
+}
+
+.slider_img .text_block
+{
+	position:absolute;
+	float:right;
+	width:300px;
+	height:280px;
+	background-color:#4c4c4c;	
+	padding:30px;
+	margin:10px;
+	opacity:0.7;
+	bottom:0;
+	right:40px;
+}
+
+.slider_img .slider_box
+{
+	position:absolute;
+	background-color:#4c4c4c;
+	opacity:0.7;
+	width:40px;
+	height:280px;
+	bottom:0;
+	right:0;	
+	border-left:1px #FFFFFF solid;
+	float:right;
+	margin:10px;
+}
+
+.slider_img .slider_box span.previous
+{
+	position:absolute;
+	top:15px;
+	left:10px;
+	width:20px;
+	float:left;
+	height:15px;
+	cursor:pointer;
+	background:url(Slices/slider-top-pagination-hov.png) no-repeat;
+}
+
+.slider_img .slider_box span.next
+{
+	position:absolute;
+	bottom:15px;
+	left:10px;
+	width:20px;
+	float:left;
+	height:15px;
+	cursor:pointer;
+	background:url(Slices/slider-bottom-pagination-hov.png) no-repeat;
+}
+
+.sec1
+{
+	width:100%;
+	background-color:#FFFFFF;
+}
+
+.s_sec1
+{
+	width:100%;
+	float:left;
+	border:1px #ebebeb solid;	
+	margin:20px auto;
+}
+
+.sec1 .m_lbox
+{
+	width:30%;
+	float:left;
+	background-color:#ebebeb;
+	height: 257px;
+}
+
+.m_lbox ul
+{
+	display:inline-block;
+	float:left;
+	list-style:none;
+	padding:0;
+	width:100%;
+}
+
+.m_lbox ul li
+{
+	font-family:Georgia;
+	font-size:17px;
+	margin:15px auto;
+}
+
+.m_lbox ul li a 
+{
+	width:90%;
+	display:block;
+	padding-left:20px;
+	color:#a55417 !important;	
+}
+
+.m_lbox ul li a:hover
+{
+	color:#FFFFFF !important;
+	background-color:#a55417;
+}
+
+.sec1 .m_rbox
+{
+	width:65%;
+	float:left;
+	margin:15px 22px;
+}
+
+.m_rbox .bx
+{
+	padding:5px 8px;
+	float:left;	
+}
+
+.m_rbox .bx img
+{
+	width:100%;
+	float:left;	
+	margin-bottom:5px;
+}
+
+.m_rbox .bx p.hd
+{
+	font-family:Georgia;
+	font-size:15px;	
+	font-weight:bold;
+}
+
+.m_rbox .bx p.hd
+{
+	font-family:Tahoma;
+	font-size:13px;	
+}
+
+.sec2
+{
+	width:100%;
+	float:left;
+	background-color:#f8f8f8;
+	border-bottom:1px #cfcfcf solid;
+	border-top:1px #cfcfcf solid;	
+}
+
+.sec2 .box
+{
+	padding-left:0px;	
+}
+
+.sec2 p.hd
+{
+	font-family:Tahoma;
+	font-size:15px;
+	color:#888;
+	border-bottom:1px #888 dashed;
+	padding-bottom:5px;
+	margin:20px auto;
+	font-weight:bold;
+}
+
+.end
+{
+	width:100%;
+	float:left;	
+}
+
+.box1 ul,
+.box2 ul,
+.box3 ul,
+.box4 ul
+{
+	list-style:none;
+	width:100%;
+	float:left;
+	display:inline-block;	
+	padding:0px;
+}
+
+.box1 ul li,
+.box2 ul li,
+.box3 ul li
+{
+	padding-bottom:15px;
+	display:block;
+}
+
+.box4 ul li
+{
+	display:block;
+	padding-bottom:5px;	
+}
+
+.box2 ul li img
+{	
+	width:auto;
+}
+
+.box1 ul li a,
+.box3 ul li a,
+.box4 ul li a 
+{
+	font-family:Tahoma;
+	font-size:13px;
+	color:#888 !important;	
+}
+
+.box1 ul li a:hover
+{
+	color:#993408 !important;
+}
+
+.box1 ul li a:hover img
+{
+	content:url(Slices/footer-bullethover.jpg);	
+}
+
+.box3 ul li div
+{
+	width:24px;
+	height:24px;
+	float:left;	
+	margin-right:15px;
+}
+
+.box3 ul li:hover a,
+.box3 ul li a:hover
+{
+	color:#5266ad !important;	
+}
+
+.box3 ul li #facebook
+{
+	background:url(Slices/social-icons.jpg) 0 111px;
+}
+.box3 ul li:hover #facebook
+{
+	background:url(Slices/social-icons.jpg) 0 0;	
+}
+.box3 ul li #twitter
+{
+	background:url(Slices/social-icons.jpg) 0 82px;
+}
+.box3 ul li:hover #twitter
+{
+	background:url(Slices/social-icons.jpg) 0 -29px;	
+}.box3 ul li #linkedin
+{
+	background:url(Slices/social-icons.jpg) 0 53px;
+}
+.box3 ul li:hover #linkedin
+{
+	background:url(Slices/social-icons.jpg) 0 -58px;	
+}.box3 ul li #rss
+{
+	background:url(Slices/social-icons.jpg) 0 24px;
+}
+.box3 ul li:hover #rss
+{
+	background:url(Slices/social-icons.jpg) 0 -87px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
